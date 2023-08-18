@@ -2,8 +2,8 @@ const config = require("../utils/get-config");
 const seichi_achievement_embeds = require("./seichi-achievement/embed");
 
 module.exports = (client) => {
-	var today = new Date();
-	var day = today.getMonth() + 1 + "/" + today.getDate();
+	const today = new Date();
+	const day = today.getMonth() + 1 + "/" + today.getDate();
 	const mention = "<@&" + config.seichi_achievement.role + ">";
 	// 9001
 	if (day === "1/1") {
