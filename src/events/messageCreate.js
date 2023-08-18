@@ -159,7 +159,7 @@ module.exports = async (client, message) => {
 	// ブロックされているか確認
 	if (BlockData_check.enable.includes("true")) {
 		logger.info("ユーザーID: " + message.author.id + " はブロックされています");
-		var your_block = new MessageEmbed({
+		const your_block = new MessageEmbed({
 			title: "警告: あなたはブロックされています",
 			color: 16601703,
 			footer: {
@@ -179,7 +179,7 @@ module.exports = async (client, message) => {
 		message.channel.send({ embeds: [your_block] });
 		return;
 	}
-	var unknown_command = new MessageEmbed({
+	const unknown_command = new MessageEmbed({
 		title: "コマンドが不明です😉",
 		color: 16601703,
 		footer: {

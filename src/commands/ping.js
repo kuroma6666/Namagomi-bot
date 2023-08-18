@@ -5,7 +5,7 @@ const config = require("../utils/get-config");
 
 exports.run = (client, message) => {
 	try {
-		var embed = new MessageEmbed({
+		const embed = new MessageEmbed({
 			title: "🏓pong!",
 			description: "ping値を表示します",
 			color: 0xffff12,

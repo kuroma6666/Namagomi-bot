@@ -19,7 +19,7 @@ exports.run = async (client, message) => {
 		const input = args.join(" ");
 
 		// ユーザーIDが指定されていない場合
-		var err_argument = new MessageEmbed({
+		const err_argument = new MessageEmbed({
 			title: "ユーザーブロック",
 			description: "コマンド実行エラー: 引数が指定されていません",
 			color: 16601703,
@@ -73,7 +73,7 @@ exports.run = async (client, message) => {
 			enable: true,
 		});
 
-		var data = new MessageEmbed({
+		const data = new MessageEmbed({
 			title: "ユーザーブロック",
 			description: "ユーザーをブロックしました",
 			color: 3853014,

@@ -4,7 +4,7 @@ const freemem_byte = os.freemem();
 const freemem_kb = freemem_byte / 1024;
 const freemem = freemem_kb / 1024;
 
-var msg = new MessageEmbed({
+const msg = new MessageEmbed({
 	title: "コマンドの実行に失敗しました...",
 	color: 16601703,
 	description: "管理者にお問い合わせください",
@@ -15,7 +15,7 @@ var msg = new MessageEmbed({
 		},
 	],
 });
-var msg_debug = new MessageEmbed({
+const msg_debug = new MessageEmbed({
 	title: "debug mode",
 	color: 16601703,
 	description: "debug information",

@@ -25,7 +25,7 @@ exports.run = (client, message, args) => {
 
 		const result = results.join(",");
 
-		var success = new MessageEmbed({
+		const success = new MessageEmbed({
 			title: "抽選結果",
 			description: result,
 			color: 5301186,

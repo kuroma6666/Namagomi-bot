@@ -11,7 +11,7 @@ exports.run = (client, message) => {
 		const freemem_byte = os.freemem;
 		const freemem_kb = freemem_byte / 1024;
 		const freemem = freemem_kb / 1024;
-		var embed = new MessageEmbed({
+		const embed = new MessageEmbed({
 			title: "SystemStatus",
 			color: 5301186,
 			footer: {

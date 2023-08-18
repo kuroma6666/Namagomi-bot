@@ -22,7 +22,7 @@ exports.run = async (client, message) => {
 		}
 
 		// 文字列がない場合
-		var err_argument = new MessageEmbed({
+		const err_argument = new MessageEmbed({
 			title: "prefixの設定",
 			description: "コマンド実行エラー: 引数が指定されていません",
 			color: 16601703,
@@ -47,7 +47,7 @@ exports.run = async (client, message) => {
 			prefix: input,
 		});
 
-		var success = new MessageEmbed({
+		const success = new MessageEmbed({
 			title: "prefixの設定",
 			description: "prefix(接頭辞)を更新しました",
 			color: 3853014,

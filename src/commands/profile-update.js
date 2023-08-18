@@ -29,7 +29,7 @@ exports.run = async (client, message) => {
 		logger.error(err);
 		return;
 	}
-	var data = new MessageEmbed({
+	const data = new MessageEmbed({
 		title: "あたらしいprofile",
 		description: "DBに保存されているデータを更新しました",
 		color: 3853014,

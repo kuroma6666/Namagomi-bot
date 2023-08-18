@@ -33,7 +33,7 @@ exports.run = (client, message, args) => {
 
 		const command = args.join(" ");
 
-		var err_argument = new MessageEmbed({
+		const err_argument = new MessageEmbed({
 			title: "シェルコマンド実行",
 			description: "ERROR: 引数が指定されていません",
 			color: 16601703,
@@ -59,7 +59,7 @@ exports.run = (client, message, args) => {
 			const input = command;
 			const input_count = input.length;
 			if (input_count >= 1000) {
-				var err_input_long = new MessageEmbed({
+				const err_input_long = new MessageEmbed({
 					title: "シェルコマンド実行",
 					description: "ERROR: 入力値が1000文字を超えました...",
 					color: 16601703,
@@ -87,7 +87,7 @@ exports.run = (client, message, args) => {
 			const output_4 = res.slice(4000, 5000);
 			const output_5 = res.slice(5000, 6000);
 			if (err) {
-				var err_shell = new MessageEmbed({
+				const err_shell = new MessageEmbed({
 					title: "シェルコマンド実行",
 					description: "シェルコマンドを実行しました",
 					color: 16601703,
@@ -109,7 +109,7 @@ exports.run = (client, message, args) => {
 			}
 
 			// 実行成功時
-			var page1 = new MessageEmbed({
+			const page1 = new MessageEmbed({
 				title: "シェルコマンド実行",
 				description: "シェルコマンドを実行しました (1ページ目)",
 				color: 3853014,
@@ -124,7 +124,7 @@ exports.run = (client, message, args) => {
 					},
 				],
 			});
-			var page2 = new MessageEmbed({
+			const page2 = new MessageEmbed({
 				title: "シェルコマンド実行",
 				description: "シェルコマンドを実行しました (2ページ目)",
 				color: 3853014,
@@ -135,7 +135,7 @@ exports.run = (client, message, args) => {
 					},
 				],
 			});
-			var page3 = new MessageEmbed({
+			const page3 = new MessageEmbed({
 				title: "シェルコマンド実行",
 				description: "シェルコマンドを実行しました (3ページ目)",
 				color: 3853014,
@@ -146,7 +146,7 @@ exports.run = (client, message, args) => {
 					},
 				],
 			});
-			var page4 = new MessageEmbed({
+			const page4 = new MessageEmbed({
 				title: "シェルコマンド実行",
 				description: "シェルコマンドを実行しました (4ページ目)",
 				color: 3853014,
@@ -157,7 +157,7 @@ exports.run = (client, message, args) => {
 					},
 				],
 			});
-			var page5 = new MessageEmbed({
+			const page5 = new MessageEmbed({
 				title: "シェルコマンド実行",
 				description: "シェルコマンドを実行しました (最終ページ)",
 				color: 3853014,

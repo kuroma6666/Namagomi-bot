@@ -7,7 +7,7 @@ const err_embed = require("../utils/error-embed");
 
 exports.run = (client, message) => {
 	try {
-		var embed = new MessageEmbed({
+		const embed = new MessageEmbed({
 			title: "about",
 			description: "botの詳細を表示します",
 			color: 0xffff12,

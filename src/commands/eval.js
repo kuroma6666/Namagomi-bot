@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
 		return;
 	}
 
-	var err_not_args = new MessageEmbed({
+	const err_not_args = new MessageEmbed({
 		title: "コードの評価",
 		description: "ERROR: 評価するコードが入力されていません",
 		color: 16601703,
@@ -61,7 +61,7 @@ exports.run = (client, message, args) => {
 
 			// 入力値規制
 			if (args.length >= 1000) {
-				var err_input_long = new MessageEmbed({
+				const err_input_long = new MessageEmbed({
 					title: "コードの評価",
 					description: "ERROR: 入力値が1000文字を超えたため表示しません...",
 					color: 16601703,
@@ -81,7 +81,7 @@ exports.run = (client, message, args) => {
 				return;
 			}
 
-			var err_not_output = new MessageEmbed({
+			const err_not_output = new MessageEmbed({
 				title: "コードの評価",
 				description: "出力がありませんでしたが、コードの実行には成功しました",
 				color: 3853014,
@@ -110,7 +110,7 @@ exports.run = (client, message, args) => {
 			const output_3 = cleaned.slice(3000, 4000);
 			const output_4 = cleaned.slice(4000, 5000);
 			const output_5 = cleaned.slice(5000, 6000);
-			var page1 = new MessageEmbed({
+			const page1 = new MessageEmbed({
 				title: "コードの評価",
 				description: "コードを評価しました (1ページ目)",
 				color: 3853014,
@@ -125,7 +125,7 @@ exports.run = (client, message, args) => {
 					},
 				],
 			});
-			var page2 = new MessageEmbed({
+			const page2 = new MessageEmbed({
 				title: "コードの評価",
 				description: "コードを評価しました (2ページ目)",
 				color: 3853014,
@@ -136,7 +136,7 @@ exports.run = (client, message, args) => {
 					},
 				],
 			});
-			var page3 = new MessageEmbed({
+			const page3 = new MessageEmbed({
 				title: "コードの評価",
 				description: "コードを評価しました (3ページ目)",
 				color: 3853014,
@@ -147,7 +147,7 @@ exports.run = (client, message, args) => {
 					},
 				],
 			});
-			var page4 = new MessageEmbed({
+			const page4 = new MessageEmbed({
 				title: "コードの評価",
 				description: "コードを評価しました (4ページ目)",
 				color: 3853014,
@@ -158,7 +158,7 @@ exports.run = (client, message, args) => {
 					},
 				],
 			});
-			var page5 = new MessageEmbed({
+			const page5 = new MessageEmbed({
 				title: "コードの評価",
 				description: "コードを評価しました (最終ページ)",
 				color: 3853014,

@@ -21,7 +21,7 @@ exports.run = async (client, message) => {
 		}
 
 		if (OmikujiData.one_day_omikuji_feature.includes("true")) {
-			var disenable = new MessageEmbed({
+			const disenable = new MessageEmbed({
 				title: "1日1おみくじの無効化",
 				description: "1日1おみくじを無効化しました",
 				color: 5301186,
@@ -41,7 +41,7 @@ exports.run = async (client, message) => {
 			});
 			return;
 		} else {
-			var enable = new MessageEmbed({
+			const enable = new MessageEmbed({
 				title: "1日1おみくじの有効化",
 				description: "1日1おみくじを有効化しました",
 				color: 5301186,

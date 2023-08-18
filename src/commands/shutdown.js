@@ -14,7 +14,7 @@ exports.run = (client, message) => {
 
 		if (config.bot.owner.includes(message.author.id)) {
 			logger.info("システムを終了します...");
-			var data = new MessageEmbed({
+			const data = new MessageEmbed({
 				title: "システムの終了",
 				description: "システムを終了を開始します... \n まもなくbotがシャットダウンします",
 				color: 3853014,

@@ -28,7 +28,7 @@ exports.run = async (client, message) => {
 		}
 
 		// 文字列がない場合
-		var err_argument = new MessageEmbed({
+		const err_argument = new MessageEmbed({
 			title: "1日1たわしさんのリセット",
 			description: "コマンド実行エラー: 引数が指定されていません",
 			color: 16601703,
@@ -50,7 +50,7 @@ exports.run = async (client, message) => {
 			tawasi: false,
 		});
 
-		var success = new MessageEmbed({
+		const success = new MessageEmbed({
 			title: "1日1たわしさんのリセット",
 			description: "1日1たわしさんをリセット",
 			color: 3853014,

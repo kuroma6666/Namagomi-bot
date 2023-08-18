@@ -21,7 +21,7 @@ exports.run = async (client, message) => {
 		const input = args.join(" ");
 
 		// ユーザーIDが指定されていない場合
-		var err_argument = new MessageEmbed({
+		const err_argument = new MessageEmbed({
 			title: "ユーザー情報確認",
 			description: "コマンド実行エラー: 引数が指定されていません",
 			color: 16601703,
@@ -89,7 +89,7 @@ exports.run = async (client, message) => {
 			);
 			return;
 		}
-		var data = new MessageEmbed({
+		const data = new MessageEmbed({
 			title: "ユーザー情報確認",
 			description: "DBに保存されているデータを取得しました",
 			color: 3853014,

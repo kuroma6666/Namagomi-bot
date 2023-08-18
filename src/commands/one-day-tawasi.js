@@ -21,7 +21,7 @@ exports.run = async (client, message) => {
 		}
 
 		if (tawasiData.one_day_tawasi_feature.includes("true")) {
-			var disenable = new MessageEmbed({
+			const disenable = new MessageEmbed({
 				title: "1日1たわしの無効化",
 				description: "1日1たわしを無効化しました",
 				color: 5301186,
@@ -41,7 +41,7 @@ exports.run = async (client, message) => {
 			});
 			return;
 		} else {
-			var enable = new MessageEmbed({
+			const enable = new MessageEmbed({
 				title: "1日1たわしの有効化",
 				description: "1日1たわしを有効化しました",
 				color: 5301186,

@@ -1,6 +1,6 @@
 const { MessageEmbed } = require("discord.js");
 
-var day_9001 = new MessageEmbed({
+const day_9001 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -16,7 +16,7 @@ var day_9001 = new MessageEmbed({
 });
 exports.day_9001 = day_9001;
 
-var day_9002 = new MessageEmbed({
+const day_9002 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -32,7 +32,7 @@ var day_9002 = new MessageEmbed({
 });
 exports.day_9002 = day_9002;
 
-var day_9003 = new MessageEmbed({
+const day_9003 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -48,7 +48,7 @@ var day_9003 = new MessageEmbed({
 });
 exports.day_9003 = day_9003;
 
-var day_9004 = new MessageEmbed({
+const day_9004 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -64,7 +64,7 @@ var day_9004 = new MessageEmbed({
 });
 exports.day_9004 = day_9004;
 
-var day_9005 = new MessageEmbed({
+const day_9005 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -80,7 +80,7 @@ var day_9005 = new MessageEmbed({
 });
 exports.day_9005 = day_9005;
 
-var day_9006 = new MessageEmbed({
+const day_9006 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -96,7 +96,7 @@ var day_9006 = new MessageEmbed({
 });
 exports.day_9006 = day_9006;
 
-var day_9007 = new MessageEmbed({
+const day_9007 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -112,7 +112,7 @@ var day_9007 = new MessageEmbed({
 });
 exports.day_9007 = day_9007;
 
-var day_9008 = new MessageEmbed({
+const day_9008 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -128,7 +128,7 @@ var day_9008 = new MessageEmbed({
 });
 exports.day_9008 = day_9008;
 
-var day_9009 = new MessageEmbed({
+const day_9009 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -144,7 +144,7 @@ var day_9009 = new MessageEmbed({
 });
 exports.day_9009 = day_9009;
 
-var day_9010 = new MessageEmbed({
+const day_9010 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -160,7 +160,7 @@ var day_9010 = new MessageEmbed({
 });
 exports.day_9010 = day_9010;
 
-var day_9011 = new MessageEmbed({
+const day_9011 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -176,7 +176,7 @@ var day_9011 = new MessageEmbed({
 });
 exports.day_9011 = day_9011;
 
-var day_9012 = new MessageEmbed({
+const day_9012 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -192,7 +192,7 @@ var day_9012 = new MessageEmbed({
 });
 exports.day_9012 = day_9012;
 
-var day_9013 = new MessageEmbed({
+const day_9013 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -208,7 +208,7 @@ var day_9013 = new MessageEmbed({
 });
 exports.day_9013 = day_9013;
 
-var day_9014 = new MessageEmbed({
+const day_9014 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -224,7 +224,7 @@ var day_9014 = new MessageEmbed({
 });
 exports.day_9014 = day_9014;
 
-var day_9015 = new MessageEmbed({
+const day_9015 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -240,7 +240,7 @@ var day_9015 = new MessageEmbed({
 });
 exports.day_9015 = day_9015;
 
-var day_9016 = new MessageEmbed({
+const day_9016 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -256,7 +256,7 @@ var day_9016 = new MessageEmbed({
 });
 exports.day_9016 = day_9016;
 
-var day_9017 = new MessageEmbed({
+const day_9017 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -272,7 +272,7 @@ var day_9017 = new MessageEmbed({
 });
 exports.day_9017 = day_9017;
 
-var day_9018 = new MessageEmbed({
+const day_9018 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -288,7 +288,7 @@ var day_9018 = new MessageEmbed({
 });
 exports.day_9018 = day_9018;
 
-var day_9019 = new MessageEmbed({
+const day_9019 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -304,7 +304,7 @@ var day_9019 = new MessageEmbed({
 });
 exports.day_9019 = day_9019;
 
-var day_9020 = new MessageEmbed({
+const day_9020 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -320,7 +320,7 @@ var day_9020 = new MessageEmbed({
 });
 exports.day_9020 = day_9020;
 
-var day_9021 = new MessageEmbed({
+const day_9021 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -336,7 +336,7 @@ var day_9021 = new MessageEmbed({
 });
 exports.day_9021 = day_9021;
 
-var day_9022 = new MessageEmbed({
+const day_9022 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -352,7 +352,7 @@ var day_9022 = new MessageEmbed({
 });
 exports.day_9022 = day_9022;
 
-var day_9023 = new MessageEmbed({
+const day_9023 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -368,7 +368,7 @@ var day_9023 = new MessageEmbed({
 });
 exports.day_9023 = day_9023;
 
-var day_9024 = new MessageEmbed({
+const day_9024 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -384,7 +384,7 @@ var day_9024 = new MessageEmbed({
 });
 exports.day_9024 = day_9024;
 
-var day_9025 = new MessageEmbed({
+const day_9025 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -400,7 +400,7 @@ var day_9025 = new MessageEmbed({
 });
 exports.day_9025 = day_9025;
 
-var day_9026 = new MessageEmbed({
+const day_9026 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -416,7 +416,7 @@ var day_9026 = new MessageEmbed({
 });
 exports.day_9026 = day_9026;
 
-var day_9027 = new MessageEmbed({
+const day_9027 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -432,7 +432,7 @@ var day_9027 = new MessageEmbed({
 });
 exports.day_9027 = day_9027;
 
-var day_9028 = new MessageEmbed({
+const day_9028 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -448,7 +448,7 @@ var day_9028 = new MessageEmbed({
 });
 exports.day_9028 = day_9028;
 
-var day_9029 = new MessageEmbed({
+const day_9029 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -464,7 +464,7 @@ var day_9029 = new MessageEmbed({
 });
 exports.day_9029 = day_9029;
 
-var day_9030 = new MessageEmbed({
+const day_9030 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -480,7 +480,7 @@ var day_9030 = new MessageEmbed({
 });
 exports.day_9030 = day_9030;
 
-var day_9031 = new MessageEmbed({
+const day_9031 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -496,7 +496,7 @@ var day_9031 = new MessageEmbed({
 });
 exports.day_9031 = day_9031;
 
-var day_9032 = new MessageEmbed({
+const day_9032 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -512,7 +512,7 @@ var day_9032 = new MessageEmbed({
 });
 exports.day_9032 = day_9032;
 
-var day_9033 = new MessageEmbed({
+const day_9033 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -528,7 +528,7 @@ var day_9033 = new MessageEmbed({
 });
 exports.day_9033 = day_9033;
 
-var day_9034 = new MessageEmbed({
+const day_9034 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -544,7 +544,7 @@ var day_9034 = new MessageEmbed({
 });
 exports.day_9034 = day_9034;
 
-var day_9035 = new MessageEmbed({
+const day_9035 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -560,7 +560,7 @@ var day_9035 = new MessageEmbed({
 });
 exports.day_9035 = day_9035;
 
-var day_9036 = new MessageEmbed({
+const day_9036 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -576,7 +576,7 @@ var day_9036 = new MessageEmbed({
 });
 exports.day_9036 = day_9036;
 
-var day_9037 = new MessageEmbed({
+const day_9037 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -592,7 +592,7 @@ var day_9037 = new MessageEmbed({
 });
 exports.day_9037 = day_9037;
 
-var day_9038 = new MessageEmbed({
+const day_9038 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -608,7 +608,7 @@ var day_9038 = new MessageEmbed({
 });
 exports.day_9038 = day_9038;
 
-var day_9039 = new MessageEmbed({
+const day_9039 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -624,7 +624,7 @@ var day_9039 = new MessageEmbed({
 });
 exports.day_9039 = day_9039;
 
-var day_9040 = new MessageEmbed({
+const day_9040 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -640,7 +640,7 @@ var day_9040 = new MessageEmbed({
 });
 exports.day_9040 = day_9040;
 
-var day_9041 = new MessageEmbed({
+const day_9041 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -656,7 +656,7 @@ var day_9041 = new MessageEmbed({
 });
 exports.day_9041 = day_9041;
 
-var day_9042 = new MessageEmbed({
+const day_9042 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -672,7 +672,7 @@ var day_9042 = new MessageEmbed({
 });
 exports.day_9042 = day_9042;
 
-var day_9043 = new MessageEmbed({
+const day_9043 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -688,7 +688,7 @@ var day_9043 = new MessageEmbed({
 });
 exports.day_9043 = day_9043;
 
-var day_9044 = new MessageEmbed({
+const day_9044 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -704,7 +704,7 @@ var day_9044 = new MessageEmbed({
 });
 exports.day_9044 = day_9044;
 
-var day_9045 = new MessageEmbed({
+const day_9045 = new MessageEmbed({
 	title: "今月は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -720,7 +720,7 @@ var day_9045 = new MessageEmbed({
 });
 exports.day_9045 = day_9045;
 
-var day_9046 = new MessageEmbed({
+const day_9046 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [
@@ -736,7 +736,7 @@ var day_9046 = new MessageEmbed({
 });
 exports.day_9046 = day_9046;
 
-var day_9047 = new MessageEmbed({
+const day_9047 = new MessageEmbed({
 	title: "今日は実績の解除が可能です",
 	color: 5301186,
 	fields: [

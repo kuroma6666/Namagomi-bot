@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
 			return;
 		}
 
-		var not_args = new MessageEmbed({
+		const not_args = new MessageEmbed({
 			title: "リロード失敗",
 			description: "コマンドのリロードに失敗しました...",
 			color: 13632027,
@@ -26,14 +26,14 @@ exports.run = (client, message, args) => {
 
 		if (!args || args.length < 1) return message.channel.send({ embeds: [not_args] });
 		const commandName = args[0];
-		var reload_success = new MessageEmbed({
+		const reload_success = new MessageEmbed({
 			title: "リロード成功",
 			description: commandName + "コマンドをリロードしました",
 			color: 4886754,
 			timestamp: new Date(),
 		});
 
-		var reload_unknown = new MessageEmbed({
+		const reload_unknown = new MessageEmbed({
 			title: "リロード失敗",
 			description: commandName + "コマンドのリロードに失敗しました...",
 			color: 13632027,

@@ -16,7 +16,7 @@ exports.run = (client, message) => {
 				commit_short_hash = res;
 			}
 
-			var embed = new MessageEmbed({
+			const embed = new MessageEmbed({
 				title: "Version",
 				color: 5301186,
 				footer: {
