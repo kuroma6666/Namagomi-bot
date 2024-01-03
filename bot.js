@@ -55,8 +55,14 @@ for (const file of commands) {
     const command = require(`./src/commands/${file}`);
 
     client.commands.set(commandName, command);
+
     debug_logger("Loading command: " + commandName);
 }
+
+const slashCommandData = require("./src/commands/utils/slashCommandData.js");
+client.once("ready", async () => {
+    await client.application.commands.set(slashCommandData.data, config.bot.guild_id);
+});
 logger.info("コマンドの読み込みに成功しました");
 
 // Discord login
