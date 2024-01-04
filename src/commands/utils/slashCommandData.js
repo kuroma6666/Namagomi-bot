@@ -1,7 +1,18 @@
-const command_usage = [
+const command_data = [
     {
         name: "omikuji",
         description: "おみくじをします",
+    },
+    {
+        name: "vote",
+        description: "投票を行います",
+        options: [
+            {
+                type: "STRING",
+                name: "タイトル",
+                description: "投票タイトルを入力してね",
+            },
+        ],
     },
     {
         name: "ping",
@@ -9,4 +20,4 @@ const command_usage = [
     },
 ];
 
-exports.command_usage = command_usage;
+exports.data = command_data;
